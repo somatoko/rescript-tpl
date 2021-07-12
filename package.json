@@ -1,0 +1,22 @@
+{
+  "name": "rescript-tpl",
+  "version": "1.0.0",
+  "description": "Project template for ReScript.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "snowpack dev",
+    "re": "rescript build -w",
+    "build": "rescript && snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max&Co",
+  "license": "ISC",
+  "devDependencies": {
+    "@rescript/react": "^0.10.3",
+    "@snowpack/plugin-react-refresh": "^2.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rescript": "^9.1.4",
+    "snowpack": "^3.7.1"
+  }
+}

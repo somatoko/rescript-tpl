@@ -1,0 +1,19 @@
+
+* Starting up
+
+  Install deps
+
+    pnpm add -D snowpack rescript react react-dom @rescript/react @snowpack/plugin-react-refresh
+  
+  Adjust bsconfig.js (see https://rescript-lang.org/docs/manual/latest/installation)
+
+  Configure Snowpack
+
+    pnpx snowpack init
+
+
+* Reference
+
+  - @rescript/react https://rescript-lang.org/docs/react/latest/introduction
+  - Snowpack
+    - Production build https://www.snowpack.dev/guides/optimize-and-bundle
